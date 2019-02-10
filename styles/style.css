@@ -1,0 +1,130 @@
+
+/*General*/
+body{
+    font-family: Arial, Helvatica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*header*/
+
+header{
+    height: 60px;
+    background-color: cyan;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+header h1{
+    margin: 0 auto;
+}
+
+/*Menu*/
+#menu{
+    height: 60px;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#menu label{
+    background-color: blue;
+    padding: 12px 8px 12px 8px;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+}
+
+#menu input{
+    width: 160px;
+    padding: 8px 0px 8px 0px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border : 1px solid black;
+}
+
+
+/*TABLE*/
+#table{
+    padding: 10px;
+    width : 400px;
+    height: 300px;
+    margin: 0px auto;
+}
+#table table{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+#table td{
+    border : 1px solid black;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-spacing: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/*result section*/
+#result button{
+    padding: 15px;
+    margin-right: 30px;
+    margin-top: 25px;
+    background-color: red;
+    border : none;
+    color: #ffffff;
+    font-size: 16px;
+}
+#result button:hover{
+    background-color: blue;
+}
+
+#buttons{   
+    height: 80px;
+    text-align: center;
+}
+
+#result p{
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: 85px; /* because of footer (make it less to see the effect) (to complete page's height)*/
+}
+
+/*svg css*/
+
+svg{
+    stroke: black;
+    stroke-width: 2;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: cyan;
+    height: 40px;
+}
