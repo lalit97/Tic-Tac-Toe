@@ -6,4 +6,4 @@ Go to index.html and play :)
 
 ### Screenshot
 
-![home-page](https://github.com/lalit97/Tic-Tac-Toe/tree/master/images/home.png)
+![home-page](https://github.com/lalit97/Tic-Tac-Toe/blob/master/images/home.png)
