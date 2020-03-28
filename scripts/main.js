@@ -36,27 +36,27 @@ document.getElementById("play_again").onclick = function(){
 
 function check_for_win(text){
     if (l[0].innerHTML == l[3].innerHTML && l[0].innerHTML == l[6].innerHTML &&l[0].innerHTML != ""){
-        draw_straight_line(540,540,100,360,100,360,'y2');
+        draw_straight_line(610,610,100,360,100,360,'y2');
         displayResult(text);
     }
     else if (l[1].innerHTML == l[4].innerHTML && l[1].innerHTML == l[7].innerHTML &&l[1].innerHTML != ""){
-        draw_straight_line(639,639,100,360,100,360,'y2');
+        draw_straight_line(710,710,100,360,100,360,'y2');
         displayResult(text);
     }
     else if (l[2].innerHTML == l[5].innerHTML && l[2].innerHTML == l[8].innerHTML &&l[2].innerHTML != ""){
-        draw_straight_line(739,739,100,360,100,360,'y2');
+        draw_straight_line(810,810,100,360,100,360,'y2');
         displayResult(text);
     }
     else if (l[0].innerHTML == l[1].innerHTML && l[0].innerHTML == l[2].innerHTML &&l[0].innerHTML != ""){
-        draw_straight_line(520,755,130,130,520,755,'x2');
+        draw_straight_line(580,830,130,130,580,830,'x2');
         displayResult(text);
     }
     else if (l[3].innerHTML == l[4].innerHTML && l[3].innerHTML == l[5].innerHTML &&l[3].innerHTML != ""){
-        draw_straight_line(520,755,230,230,520,755,'x2');
+        draw_straight_line(580,830,230,230,580,830,'x2');
         displayResult(text);
     }
     else if (l[6].innerHTML == l[7].innerHTML && l[6].innerHTML == l[8].innerHTML &&l[6].innerHTML != ""){
-        draw_straight_line(520,755,331,331,520,755,'x2');
+        draw_straight_line(580,830,331,331,580,830,'x2');
         displayResult(text);
     }
     else if (l[2].innerHTML == l[4].innerHTML && l[2].innerHTML == l[6].innerHTML &&l[2].innerHTML != ""){
@@ -99,5 +99,3 @@ function displayResult(text){
     }, 200);
     flag = 1;
 }    
-//512 186 752 429 
-//752 186 512 429 
